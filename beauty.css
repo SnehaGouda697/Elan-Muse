@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#FFF7F8;
+    font-family:Poppins,sans-serif;
+}
+
+/* HEADER */
+
+header{
+    background:#F8DDEA;
+    text-align:center;
+    padding:25px 0;
+}
+
+.logo{
+    font-family:"Playfair Display",serif;
+    font-size:55px;
+    color:#B76E79;
+    margin-bottom:20px;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:#B76E79;
+    font-size:20px;
+    margin:0 25px;
+    font-weight:600;
+}
+
+.navbar a:hover{
+    color:#E88FB7;
+}
+
+.beauty{
+    text-align:center;
+    padding:60px;
+}
+
+.beauty h1{
+    font-size:50px;
+    color:#B76E79;
+    font-family:"Playfair Display", serif;
+}
+
+.beauty p{
+    margin:20px 0;
+    color:#666;
+}
+
+.btn{
+    text-decoration:none;
+    background:#E88FB7;
+    color:white;
+    padding:12px 25px;
+    border-radius:25px;
+}
+
+.beauty-picks{
+    text-align:center;
+    padding:50px;
+}
+
+.card{
+    display:inline-block;
+    width:250px;
+    margin:15px;
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.card h3{
+    margin-top:10px;
+    color:#444;
+}
+
+.beauty-tip{
+    text-align:center;
+    padding:50px;
+    font-style:italic;
+    color:#B76E79;
+    font-size:22px;
+}

@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#FFF7F8;
+    font-family:Poppins,sans-serif;
+}
+
+/* HEADER */
+
+header{
+    background:#F8DDEA;
+    text-align:center;
+    padding:25px 0;
+}
+
+.logo{
+    font-family:"Playfair Display",serif;
+    font-size:55px;
+    color:#B76E79;
+    margin-bottom:20px;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:#B76E79;
+    font-size:20px;
+    margin:0 25px;
+    font-weight:600;
+}
+
+.navbar a:hover{
+    color:#E88FB7;
+}
+
+.journal{
+    text-align:center;
+    padding:70px;
+}
+
+.journal h1{
+    font-size:50px;
+    color:#B76E79;
+}
+
+.journal p{
+    margin:20px 0;
+    color:#666;
+}
+
+.entries{
+    width:70%;
+    margin:auto;
+}
+
+.entry{
+    background:white;
+    padding:25px;
+    margin:20px 0;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+}
+
+.entry h3{
+    color:#B76E79;
+}
+
+.entry p{
+    color:#777;
+}
+
+.quote{
+    text-align:center;
+    padding:50px;
+    font-style:italic;
+    color:#B76E79;
+}

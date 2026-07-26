@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#FFF7F8;
+    font-family:Poppins,sans-serif;
+}
+
+/* HEADER */
+
+header{
+    background:#F8DDEA;
+    text-align:center;
+    padding:25px 0;
+}
+
+.logo{
+    font-family:"Playfair Display",serif;
+    font-size:55px;
+    color:#B76E79;
+    margin-bottom:20px;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:#B76E79;
+    font-size:20px;
+    margin:0 25px;
+    font-weight:600;
+}
+
+.navbar a:hover{
+    color:#E88FB7;
+}
+.contact{
+    text-align:center;
+    padding:70px;
+}
+
+.contact h1{
+    font-size:50px;
+    color:#B76E79;
+}
+
+.contact p{
+    color:#666;
+    margin-top:20px;
+}
+
+.contact-form{
+    text-align:center;
+    padding:40px;
+}
+
+.contact-form input,
+.contact-form textarea{
+
+    width:50%;
+    padding:15px;
+    margin:12px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.contact-form textarea{
+    height:150px;
+}
+
+.contact-form button{
+
+    background:#E88FB7;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+.contact-form button:hover{
+
+    background:#D96A9E;
+}
+
+.social{
+
+    text-align:center;
+    padding:50px;
+}
+
+.social h2{
+
+    color:#B76E79;
+}
+
+.social p{
+
+    color:#666;
+    margin-top:15px;
+}

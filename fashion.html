@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fashion</title>
-  <link rel="stylesheet" href="home.html">
   <link rel="stylesheet" href="fashion.css">
+  <link rel="stylesheet" href="site.css">
 </head>
 <body>
 
@@ -13,7 +13,11 @@
 
     <h1 class="logo">Élan Muse 🎀</h1>
 
-    <nav class="navbar">
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation">
+        <span></span><span></span><span></span>
+    </button>
+
+    <nav class="navbar" id="main-navigation" aria-label="Main navigation">
         <a href="home.html">Home</a>
         <a href="fashion.html">Fashion</a>
         <a href="beauty.html">Beauty</a>
@@ -29,24 +33,24 @@
 
     <p>Timeless style for every season.</p>
 
-    <a href="#" class="btn">Explore Collection</a>
+    <a href="#looks" class="btn">Explore Collection</a>
 
 </section>
 
-<section class="looks">
+<section class="looks" id="looks">
 
     <div class="card">
-        <img src="fashion gallery/summer.jpg" alt="">
+        <img src="fashion gallery/summer.jpg" alt="Summer fashion look">
         <h3>Summer Chic</h3>
     </div>
 
     <div class="card">
-        <img src="fashion gallery/office.png" alt="">
+        <img src="fashion gallery/office.png" alt="Elegant office outfit">
         <h3>Office Elegance</h3>
     </div>
 
     <div class="card">
-        <img src="fashion gallery/weekend.jpg" alt="">
+        <img src="fashion gallery/weekend.jpg" alt="Casual weekend outfit">
         <h3>Weekend Casual</h3>
     </div>
 
@@ -57,5 +61,6 @@
     <h2>"Confidence is the best outfit."</h2>
 
 </section>
+<script src="site.js"></script>
 </body>
 </html>

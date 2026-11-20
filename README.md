@@ -4,7 +4,7 @@ A modern, elegant, and responsive lifestyle influencer website inspired by luxur
 
 ## ✨ Overview
 
-Élan Muse is a frontend project created using **HTML5** and **CSS3**. The website represents a fictional lifestyle influencer with dedicated pages for fashion, beauty, journaling, and contact.
+Élan Muse is a frontend project created using **HTML5**, **CSS3**, **JavaScript**, and **TypeScript**. It represents a fictional lifestyle influencer, with dedicated pages for fashion, beauty, journaling, and contact.
 
 ---
 
@@ -38,12 +38,14 @@ A modern, elegant, and responsive lifestyle influencer website inspired by luxur
 
 - Elegant pastel-themed UI
 - Multi-page website
-- Responsive navigation
+- Responsive mobile navigation with active-page highlighting
 - Hero section
 - Fashion showcase
 - Beauty essentials
+- Keyboard-accessible image and video previews
 - Personal journal
-- Contact form
+- Contact form with required-field validation and demo-only status feedback
+- In-page links to featured sections
 - Clean and modern design
 
 ---
@@ -52,6 +54,8 @@ A modern, elegant, and responsive lifestyle influencer website inspired by luxur
 
 - HTML5
 - CSS3
+- TypeScript (compiled to JavaScript)
+- JavaScript
 - Google Fonts
 - Font Awesome
 
@@ -64,6 +68,19 @@ A modern, elegant, and responsive lifestyle influencer website inspired by luxur
 - 💄 Beauty
 - 📖 Journal
 - 📩 Contact
+
+---
+
+## ⚙️ Build
+
+The shared TypeScript behavior is in `site.ts`, and the browser loads the compiled `site.js` file on each page. To install TypeScript and rebuild the JavaScript:
+
+```bash
+npm install
+npm run build
+```
+
+The contact form currently validates input in the browser but does not send messages. Connect a form service or backend to enable delivery.
 
 ---
 

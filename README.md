@@ -2,9 +2,9 @@
 
 A modern, elegant, and responsive lifestyle influencer website inspired by luxury fashion and beauty blogs.
 
-## ✨ Overview
+#✨ Overview
 
-Élan Muse is a frontend project created using **HTML5**, **CSS3**, **JavaScript**, and **TypeScript**. It represents a fictional lifestyle influencer, with dedicated pages for fashion, beauty, journaling, and contact.
+Élan Muse is a modern, elegant, and responsive lifestyle influencer website inspired by luxury fashion and beauty blogs. Developed using HTML5, CSS3, JavaScript, and TypeScript, the project focuses on creating a visually appealing and user-friendly experience. It features dedicated sections for fashion, beauty, lifestyle journaling, and contact, showcasing clean UI design, responsive layouts, and interactive elements.
 
 ---
 
